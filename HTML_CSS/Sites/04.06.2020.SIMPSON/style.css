@@ -1,0 +1,33 @@
+
+*{ /*toutes les balises auront une bordure noire pleine de 1px
+    d'épaisseur*/
+    border: 1px solid black;
+    }
+    img{ /*la seule balise inline de cette page aura une bordure rouge
+    de 2px d'épaisseur, ce qui réécrit (on dit 'surcharge') la règle
+    précédente */
+    border: 2px solid red;
+    }
+    article, h1, p, figure{ /*toutes les balises block auront une
+    marge interne de 1em (16px) */
+    padding: 1em;
+    }
+
+    #titre1{
+        text-align: center;
+    }
+
+    #imagesimpson{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+    #titre2{
+        color: rgb(148, 148, 1);
+    }
+
+    #article{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
