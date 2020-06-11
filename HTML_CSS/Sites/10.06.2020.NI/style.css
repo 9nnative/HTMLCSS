@@ -3,10 +3,9 @@
     background-color: rgb(255, 255, 255);
     font: small-caps bold 24px/1 sans-serif;
   }
+  
+/* HEADER */
 
-   /* Menu */
-
-    /* Je rajoute un background */
 .menuclass {
   background-color: rgb(255, 255, 255);
   overflow: hidden;
@@ -14,7 +13,6 @@
   padding-left: 100px;
 }
 
-  /* Stylisation du texte */
 .menuclass a {
   float: left;
   color: #000000;
@@ -35,8 +33,8 @@
   transform: scale(0.92); /* (petit dézoom) */
 }
 
-  /* Lien actif */
-.menuclass a.active {
+
+.menuclass a.active {  /* (lien actif) */
   background-color: rgb(206, 140, 206);
   color: white;
 }
@@ -76,7 +74,7 @@ a {
  }
 
 
-/* Animations header */
+
 
  #divbanner {
   transition: transform .2s; 
@@ -88,6 +86,8 @@ a {
 #divbanner:hover {
   transform: scale(0.97); /* (petit dézoom) */
 }
+
+/* MAIN */
 
 article {
   margin-top: 50px;
@@ -142,7 +142,7 @@ aside{
   top:-2%;
 }
 
-/* Style all font awesome icons */
+/* ICONES SOCIAL MEDIA */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -151,12 +151,10 @@ aside{
   text-decoration: none;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
 
-/* Set a specific color for each brand */
+.fa:hover {
+  opacity: 0.8;
+}
 
 .fa-facebook {
   background: #3B5998;
@@ -196,6 +194,8 @@ aside{
   left: 85px;
   top: 60px;
 }
+
+/* FOOTER */
 
 footer{
   border: solid 3px black;
