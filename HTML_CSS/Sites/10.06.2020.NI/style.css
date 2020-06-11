@@ -37,19 +37,24 @@
 
   /* Lien actif */
 .menuclass a.active {
-  background-color: rgb(133, 78, 179);
+  background-color: rgb(206, 140, 206);
   color: white;
+}
+
+main {
+  position: relative;
+  top: -26px;
 }
 
 #logo {
   float : left;
   border:3px solid #021a40;
+
 }
 
 #banner {
   height: 300px;
   border: 3px solid #021a40;
-  margin-top: 30px;
   width: 1400px;
 }
 
@@ -84,4 +89,145 @@ a {
   transform: scale(0.97); /* (petit dézoom) */
 }
 
+article {
+  margin-top: 50px;
+  width: 900px;
+}
 
+#logo2 {
+  width: 120px;
+  height: 72px;
+  border: 3px solid #021a40;
+}
+
+h1 {
+  float: right;
+  position:relative;
+  left: 140px;
+  top: -110px;
+  border: 3px solid black;
+  padding-right: 5px;
+
+
+}
+
+#text{
+  font: 18px Arial, sans-serif;
+  position:relative;
+  bottom:120px;
+
+}
+#text2{
+  font: 18px Arial, sans-serif;
+  position:relative;
+  top: 50px;
+
+
+}
+aside{
+  float: right;
+  width: 340px;
+  height: 600px;
+  position:relative;
+  right: -5px;
+  bottom: 340px;
+  border: 3px solid black;
+  padding-left: 5px;
+  background-color: rgb(206, 140, 206);
+}
+
+#apropos{
+  position:absolute;
+  left:20%;
+  top:-2%;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border: 3px solid black;
+  margin: 5px;
+
+
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border: 3px solid black;
+  margin: 5px;
+
+}
+.fa-youtube {
+  background: rgb(224, 39, 39);
+  color: white;
+  border: 3px solid black;
+  margin: 5px;
+
+}
+#socialmedianav{
+  text-align: center;
+  height:100px;
+  width:340px;
+  margin-left:-5px;
+  position: relative;
+  top: 60px;
+}
+
+#imgapropos{
+  height:200px;
+  width:150px;
+  position: relative;
+  left: 85px;
+  top: 60px;
+}
+
+footer{
+  border: solid 3px black;
+  position: absolute;
+  bottom: -500px;
+  height:300px;
+  width:1400px;
+}
+
+#newsletter{
+  border: solid 3px black;
+  height:250px;
+  width: 436px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#galerie{
+  border: solid 3px black;
+  height:250px;
+  width: 436px;
+  position: absolute;
+  top: 20px;
+  left: 476px;
+}
+
+#partenaires{
+  border: solid 3px black;
+  height:250px;
+  width: 436px;
+  position: absolute;
+  top: 20px;
+  left: 932px;
+}
