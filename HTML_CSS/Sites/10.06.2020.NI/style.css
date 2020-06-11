@@ -1,6 +1,7 @@
 
   html {
     background-color: rgb(255, 255, 255);
+    font: small-caps bold 24px/1 sans-serif;
   }
 
    /* Menu */
@@ -9,7 +10,7 @@
 .menuclass {
   background-color: rgb(255, 255, 255);
   overflow: hidden;
-  padding-top: 118px;
+  padding-top: 93px;
   padding-left: 100px;
 }
 
@@ -46,8 +47,29 @@
   height: 300px;
   border: 3px solid #021a40;
   margin-top: 30px;
+  width: 1400px;
 }
 
 a {
   border-right: 3px solid #bbb;
+  margin: 20px;
 }
+
+#infos {
+  position:relative;
+  top:-55px;
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+  left: 15px;
+ }
+
+ button {
+   float: right;
+   position:relative;
+   top:-110px;
+   size: 2em;
+   font: small-caps bold 24px/1 sans-serif;
+ }
+
+ body {
+   width: 1400px;
+ }
