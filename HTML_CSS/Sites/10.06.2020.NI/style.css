@@ -6,7 +6,9 @@
   
 
 /* HEADER */
-
+#logo{
+  height:150px;
+}
 .menuclass {
   overflow: hidden;
   padding-top: 93px;
@@ -46,8 +48,8 @@ main {
 
 #logo {
   float : left;
-  border:3px solid #021a40;
-
+  position: relative;
+  right: -2em;
 }
 
 #banner {
@@ -99,7 +101,7 @@ article {
 #logo2 {
   width: 120px;
   height: 72px;
-  border: 3px solid #021a40;
+  border: 2px solid #021a40;
 }
 
 h1 {
