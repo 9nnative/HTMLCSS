@@ -4,6 +4,7 @@
     font: small-caps bold 24px/1 sans-serif;
   }
   
+
 /* HEADER */
 
 .menuclass {
@@ -70,7 +71,9 @@ a {
  }
 
  body {
-   width: 1400px;
+   width: 1250px;
+   height: 1200px;
+   position:relative;
  }
 
 
@@ -121,6 +124,7 @@ h1 {
   font: 18px Arial, sans-serif;
   position:relative;
   top: 50px;
+  margin:0px;
 
 
 }
@@ -129,7 +133,7 @@ aside{
   width: 340px;
   height: 600px;
   position:relative;
-  right: -5px;
+  right: -155px;
   bottom: 340px;
   border: 3px solid black;
   padding-left: 5px;
@@ -137,9 +141,11 @@ aside{
 }
 
 #apropos{
-  position:absolute;
-  left:20%;
-  top:-2%;
+
+  text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+
 }
 
 /* ICONES SOCIAL MEDIA */
@@ -192,7 +198,7 @@ aside{
   width:150px;
   position: relative;
   left: 85px;
-  top: 60px;
+  top: 30px;
 }
 
 /* FOOTER */
