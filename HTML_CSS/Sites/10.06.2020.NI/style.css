@@ -1,6 +1,6 @@
 
   html {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(131, 127, 127, 0.712);
     font: small-caps bold 24px/1 sans-serif;
   }
   
@@ -8,7 +8,6 @@
 /* HEADER */
 
 .menuclass {
-  background-color: rgb(255, 255, 255);
   overflow: hidden;
   padding-top: 93px;
   padding-left: 100px;
@@ -140,6 +139,17 @@ aside{
   background-color: rgb(206, 140, 206);
 }
 
+#aside2{
+  float: right;
+  width: 340px;
+  height: 248px;
+  position:relative;
+  right: -506px;
+  bottom: -280px;
+  border: 3px solid black;
+  padding-left: 5px;
+  background-color: rgb(206, 140, 206);
+}
 #apropos{
 
   text-align: center;
@@ -201,6 +211,10 @@ aside{
   top: 30px;
 }
 
+iframe{
+  position: absolute;
+  top:19em;
+}
 /* FOOTER */
 
 footer{
