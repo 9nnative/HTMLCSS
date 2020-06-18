@@ -351,6 +351,15 @@ label {
   left: 2em;
 }
 
+#imgmail{
+
+  height: 5em;
+  width: 5em;
+  float: right;
+  padding-right : 2em;
+  padding-top : 2em;
+}
+
 #username{
   position: relative;
   left: 2em;
