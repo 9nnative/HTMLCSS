@@ -258,6 +258,68 @@ footer{
 #navpartenaires{
 text-align: center;
 position: relative;
-bottom: -5em;
 
+}
+
+#logoableton{
+  height: 7em;
+  width: 15em;
+  position: relative;
+  bottom: 1em;
+
+}
+
+#logoflstudio{
+  height: 4em;
+  width: 4em;
+  position: relative;
+  bottom: 5em;
+  border: solid 3px black;
+}
+
+#logokorg{
+  height: 7em;
+  width: 9em;
+  position: relative;
+  left: 1em;
+  bottom: 3em;
+}
+
+label {
+  display: block;
+  font: .9rem 'Fira Sans', sans-serif;
+  position: relative;
+  left: 1em;
+}
+
+input[type='submit'],
+label {
+  margin-top: 1rem;
+  position: relative;
+  left: 1em;
+}
+
+#pass{
+
+  position: relative;
+  left: 2em;
+}
+
+#username{
+  position: relative;
+  left: 2em;
+}
+
+#signin{
+  position: relative;
+  left: 2em;
+}
+
+#pnewsletter{
+  text-align: center;
+}
+#boutonnewsletter{
+  position: relative;
+  left: 2em;
+  bottom: 1em;
 }
