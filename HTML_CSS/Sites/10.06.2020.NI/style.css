@@ -1,8 +1,9 @@
 
-  html {
-    background-color: rgba(161, 149, 125, 0.712);
-  }
-  
+html {
+  background-image: url("https://github.com/9nnative/HTMLCSS/blob/master/HTML_CSS/Sites/10.06.2020.NI/background.jpg?raw=true");
+}
+  /* fonts */
+
   @font-face {
     font-family: "Oswald-regular";
     src: url('https://github.com/9nnative/HTMLCSS/blob/master/HTML_CSS/Sites/10.06.2020.NI/Oswald-Light.ttf');
@@ -142,9 +143,8 @@ article {
 h1 {
   float: right;
   position:relative;
-  left : 6em;
-  bottom: 8em;
-  padding-right: 5px;
+  bottom: 4.5em;
+  padding-right: 10em;
 
 
 }
@@ -152,7 +152,7 @@ h1 {
 #text{
   font: 18px Arial, sans-serif;
   position:relative;
-  bottom:10em;
+  bottom:6em;
 
 }
 #text2{
