@@ -1,10 +1,36 @@
 
   html {
-    background-color: rgba(131, 127, 127, 0.712);
-    font: small-caps bold 24px/1 sans-serif;
+    background-color: rgba(161, 149, 125, 0.712);
   }
   
-  
+  @font-face {
+    font-family: "Oswald-regular";
+    src: url('https://github.com/9nnative/HTMLCSS/blob/master/HTML_CSS/Sites/10.06.2020.NI/Oswald-Light.ttf');
+  }
+  body {
+    font-family: "Oswald-Regular";
+  } 
+  body {
+    font-family: "Ma Super Fonte", Helvetica, Arial, sans-serif, bold;
+  }
+  h1 {
+    /* Utilisera MaSuperFonte-Bold.ttf */
+    font-style: normal;
+    font-weight: bold;
+  }
+  h2 {
+    /* Utilisera MaSuperFonte-Italic.ttf */
+    font-weight: normal;
+  }
+  h3 {
+    /* Utilisera ??? (fonte bold italic non chargée!) */
+    font-weight: bold;
+  }
+  p {
+    /* Utilisera MaSuperFonte-Regular.ttf */
+    font-style: normal;
+    font-weight: normal;
+  }
 
 /* HEADER */
 #logo{
@@ -38,13 +64,16 @@
 
 
 .menuclass a.active {  /* (lien actif) */
-  background-color: rgb(206, 140, 206);
+  background-color:  rgba(105, 243, 135, 0.521);
   color: white;
 }
 
 main {
   position: relative;
   top: -26px;
+  width: 1250px;
+  height : 900px;
+
 }
 
 #logo {
@@ -66,10 +95,11 @@ a {
 
 #infos {
   position:relative;
-  top:-55px;
+  top:-41px;
   left: 4px;
-  background-color: grey;
-  opacity: 0.66;
+  background-color: rgba(27, 27, 27, 0.644);
+  opacity: 0.86;
+  color : white;
  }
 
  body {
@@ -89,7 +119,7 @@ a {
 }
 
 #divbanner:hover {
-  transform: scale(0.97); /* (petit dézoom) */
+  transform: scale(0.98); /* (petit dézoom) */
 }
 
 /* MAIN */
@@ -97,20 +127,23 @@ a {
 article {
   margin-top: 50px;
   width: 900px;
+  position: absolute;
+  top: 5em;
 }
 
 #logo2 {
   width: 120px;
   height: 72px;
   border: 2px solid #021a40;
+  position: relative;
+  bottom : 6em;
 }
 
 h1 {
   float: right;
   position:relative;
-  left: 140px;
-  top: -110px;
-  border: 3px solid black;
+  left : 6em;
+  bottom: 8em;
   padding-right: 5px;
 
 
@@ -119,7 +152,7 @@ h1 {
 #text{
   font: 18px Arial, sans-serif;
   position:relative;
-  bottom:120px;
+  bottom:10em;
 
 }
 #text2{
@@ -135,24 +168,14 @@ aside{
   width: 340px;
   height: 600px;
   position:relative;
-  right: -155px;
-  bottom: 340px;
+  left : 9.5em;
+  top : 3em;
   border: 3px solid black;
   padding-left: 5px;
-  background-color: rgb(206, 140, 206);
+  background-color:  rgba(105, 243, 135, 0.521);
 }
 
-#aside2{
-  float: right;
-  width: 340px;
-  height: 248px;
-  position:relative;
-  right: -506px;
-  bottom: -280px;
-  border: 3px solid black;
-  padding-left: 5px;
-  background-color: rgb(206, 140, 206);
-}
+
 #apropos{
 
   text-align: center;
@@ -216,14 +239,14 @@ aside{
 
 iframe{
   position: absolute;
-  top:19em;
+  top:14.5em;
 }
 /* FOOTER */
 
 footer{
   border: solid 3px black;
   position: absolute;
-  bottom: -500px;
+  top : 71em;
   height:300px;
   width:1400px;
 }
@@ -238,7 +261,6 @@ footer{
 }
 
 #galerie{
-  border: solid 3px black;
   height:250px;
   width: 436px;
   position: absolute;
@@ -262,27 +284,51 @@ position: relative;
 }
 
 #logoableton{
-  height: 7em;
-  width: 15em;
+  height: 10em;
+  width: 21em;
   position: relative;
-  bottom: 1em;
+
 
 }
-
+#logoableton:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+  size: 120%;
+  transform: scale(0.92); /* (petit dézoom) */
+}
 #logoflstudio{
   height: 4em;
   width: 4em;
   position: relative;
-  bottom: 5em;
+  bottom : 3em;
+  right : 2em;
+
   border: solid 3px black;
 }
-
+#logoflstudio:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+  size: 120%;
+  transform: scale(0.92); /* (petit dézoom) */
+}
 #logokorg{
   height: 7em;
   width: 9em;
   position: relative;
   left: 1em;
-  bottom: 3em;
+  bottom: 2em;
+
+}
+  #logokorg:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    size: 120%;
+    transform: scale(0.92); /* (petit dézoom) */
+  }
+
+#newsletter{
+
+  background-color: rgba(105, 243, 135, 0.521);
 }
 
 label {
@@ -299,7 +345,7 @@ label {
   left: 1em;
 }
 
-#pass{
+#email{
 
   position: relative;
   left: 2em;
